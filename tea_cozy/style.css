@@ -165,16 +165,23 @@ padding:20px;
     justify-content: space-around;
 }
 
-@media only screen and (max-width: 620){
-    .address h3, .address p {
-        margin: .313em auto;
-    }
-}
 
 .address h3, .address p {
     margin: .625em auto;
+    
 }
 
+@media screen and (max-width: 620px){
+    .address h3, .address p {
+        margin: .313em auto;
+    }
+
+    .address > * {
+        font-size: .75em;
+    }
+    
+}
+}
 
 /* Footer Section */
 
